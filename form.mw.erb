@@ -1,0 +1,30 @@
+<noinclude>
+This is the '<%= @name %>' form.
+To add a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#formlink:<%= @name %>|New <%= @name %>||}}
+
+</noinclude><includeonly>
+{{{info|page name=<%= @category %>/<unique_number;start=1>}}}
+{{{for template|<%= @name %>}}}
+{| class="formtable"
+<% @fields.each do |f| %>
+! <%= f.label %>:
+| {{{field|<%= f.label %>|}}}
+|-
+<% end %>
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>

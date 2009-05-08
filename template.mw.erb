@@ -1,0 +1,21 @@
+<noinclude>
+This is the 'Project' template.
+It should be called in the following format:
+<pre>
+{{<%= @name %>
+<% @fields.each do |f| %>
+|<%= f.label %>=
+<% end %>
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+<% @properties.each do |p| %>
+! <%= p.field %>
+| [[<%= p.name %>::{{{<%= p.field %>|}}}]]
+|-
+<% end %>
+|}
+[[Category:<%= @category %>]]
+</includeonly>
