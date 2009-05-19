@@ -76,6 +76,15 @@ class Property
     raise "Invalid SMW type: #{@type}" unless SMW_TYPES.member?(@type)
   end
   
+  def to_smw
+    s = "{{-start-}}\n"
+    s << "'''Property:#{@name}'''\n"
+    s << "This is a property of type [[Has type::#{@type}]].\n"
+    s << "{{-stop-}}\n"
+    s << "\n"
+    s
+  end
+  
 end
 
 class Template

@@ -22,3 +22,15 @@ task :update do
   sh "python pagefromfile.py -putthrottle:01 -force -file:tmp.mediawiki"
   cd wd
 end
+
+desc 'generate property pages from a file'
+task :properties do
+  file = ENV['f']
+  raise "No file specified [f=]" if file.nil? or !File.exists?(file)
+  properties = File.readlines(file)
+  properties.each do |p|
+    p.chomp!
+    prop = Property.new(p, 'String', p)
+    puts prop.to_smw
+  end
+end

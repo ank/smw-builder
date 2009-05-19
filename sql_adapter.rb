@@ -1,7 +1,14 @@
 require "sequel"
 require "model"
 
-# put this in a yaml file
+#
+# Inspect a RDBMS and create
+# SMW Properties, Templates, Forms, and Categories
+#
+# Works on PostgreSQL, MySQL, SQLite, and JDBC
+#
+
+# TODO: put this in a yaml file
 DB = Sequel.mysql('454_project', :user => 'root', :password => 'mysqlroot12#', :host => 'localhost')
 
 DB.tables.each do |table|
