@@ -1,0 +1,3324 @@
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Demultiplexing lane id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Read id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid1 id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid1 err cnt'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid2 id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid2 err cnt'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Project phase id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Demultiplexed read'''
+<noinclude>
+This is the 'Demultiplexed read' template.
+It should be called in the following format:
+<pre>
+{{Demultiplexed read
+|id=
+|demultiplexing_lane_id=
+|read_id=
+|mid1_id=
+|mid1_err_cnt=
+|mid2_id=
+|mid2_err_cnt=
+|project_phase_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! demultiplexing_lane_id
+| [[Demultiplexing lane id::{{{demultiplexing_lane_id|}}}]]
+|-
+! read_id
+| [[Read id::{{{read_id|}}}]]
+|-
+! mid1_id
+| [[Mid1 id::{{{mid1_id|}}}]]
+|-
+! mid1_err_cnt
+| [[Mid1 err cnt::{{{mid1_err_cnt|}}}]]
+|-
+! mid2_id
+| [[Mid2 id::{{{mid2_id|}}}]]
+|-
+! mid2_err_cnt
+| [[Mid2 err cnt::{{{mid2_err_cnt|}}}]]
+|-
+! project_phase_id
+| [[Project phase id::{{{project_phase_id|}}}]]
+|-
+|}
+[[Category:Demultiplexed reads]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Demultiplexed read'''
+<noinclude>
+This is the 'Demultiplexed read' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Demultiplexed read|New Demultiplexed read||}}
+
+</noinclude><includeonly>
+{{{info|page name=Demultiplexed reads/<unique_number;start=1>}}}
+{{{for template|Demultiplexed read}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! demultiplexing_lane_id:
+| {{{field|demultiplexing_lane_id|}}}
+|-
+! read_id:
+| {{{field|read_id|}}}
+|-
+! mid1_id:
+| {{{field|mid1_id|}}}
+|-
+! mid1_err_cnt:
+| {{{field|mid1_err_cnt|}}}
+|-
+! mid2_id:
+| {{{field|mid2_id|}}}
+|-
+! mid2_err_cnt:
+| {{{field|mid2_err_cnt|}}}
+|-
+! project_phase_id:
+| {{{field|project_phase_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Demultiplexed reads'''
+This category uses the form [[Has default form::Demultiplexed read]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Demultiplexing run id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sig proc lane id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Accepted'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Demultiplexing lane'''
+<noinclude>
+This is the 'Demultiplexing lane' template.
+It should be called in the following format:
+<pre>
+{{Demultiplexing lane
+|id=
+|demultiplexing_run_id=
+|sig_proc_lane_id=
+|accepted=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! demultiplexing_run_id
+| [[Demultiplexing run id::{{{demultiplexing_run_id|}}}]]
+|-
+! sig_proc_lane_id
+| [[Sig proc lane id::{{{sig_proc_lane_id|}}}]]
+|-
+! accepted
+| [[Accepted::{{{accepted|}}}]]
+|-
+|}
+[[Category:Demultiplexing lanes]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Demultiplexing lane'''
+<noinclude>
+This is the 'Demultiplexing lane' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Demultiplexing lane|New Demultiplexing lane||}}
+
+</noinclude><includeonly>
+{{{info|page name=Demultiplexing lanes/<unique_number;start=1>}}}
+{{{for template|Demultiplexing lane}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! demultiplexing_run_id:
+| {{{field|demultiplexing_run_id|}}}
+|-
+! sig_proc_lane_id:
+| {{{field|sig_proc_lane_id|}}}
+|-
+! accepted:
+| {{{field|accepted|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Demultiplexing lanes'''
+This category uses the form [[Has default form::Demultiplexing lane]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Demultiplexing software id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Demultiplexing dt'''
+This is a property of type [[Has type::Date]].
+{{-stop-}}
+{{-start-}}
+'''Property:Allowed err cnt'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid set id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Directory'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Demultiplexing run'''
+<noinclude>
+This is the 'Demultiplexing run' template.
+It should be called in the following format:
+<pre>
+{{Demultiplexing run
+|id=
+|demultiplexing_software_id=
+|demultiplexing_dt=
+|allowed_err_cnt=
+|mid_set_id=
+|directory=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! demultiplexing_software_id
+| [[Demultiplexing software id::{{{demultiplexing_software_id|}}}]]
+|-
+! demultiplexing_dt
+| [[Demultiplexing dt::{{{demultiplexing_dt|}}}]]
+|-
+! allowed_err_cnt
+| [[Allowed err cnt::{{{allowed_err_cnt|}}}]]
+|-
+! mid_set_id
+| [[Mid set id::{{{mid_set_id|}}}]]
+|-
+! directory
+| [[Directory::{{{directory|}}}]]
+|-
+|}
+[[Category:Demultiplexing runs]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Demultiplexing run'''
+<noinclude>
+This is the 'Demultiplexing run' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Demultiplexing run|New Demultiplexing run||}}
+
+</noinclude><includeonly>
+{{{info|page name=Demultiplexing runs/<unique_number;start=1>}}}
+{{{for template|Demultiplexing run}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! demultiplexing_software_id:
+| {{{field|demultiplexing_software_id|}}}
+|-
+! demultiplexing_dt:
+| {{{field|demultiplexing_dt|}}}
+|-
+! allowed_err_cnt:
+| {{{field|allowed_err_cnt|}}}
+|-
+! mid_set_id:
+| {{{field|mid_set_id|}}}
+|-
+! directory:
+| {{{field|directory|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Demultiplexing runs'''
+This category uses the form [[Has default form::Demultiplexing run]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Program name'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Version'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Demultiplexing software'''
+<noinclude>
+This is the 'Demultiplexing software' template.
+It should be called in the following format:
+<pre>
+{{Demultiplexing software
+|id=
+|program_name=
+|version=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! program_name
+| [[Program name::{{{program_name|}}}]]
+|-
+! version
+| [[Version::{{{version|}}}]]
+|-
+|}
+[[Category:Demultiplexing softwares]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Demultiplexing software'''
+<noinclude>
+This is the 'Demultiplexing software' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Demultiplexing software|New Demultiplexing software||}}
+
+</noinclude><includeonly>
+{{{info|page name=Demultiplexing softwares/<unique_number;start=1>}}}
+{{{for template|Demultiplexing software}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! program_name:
+| {{{field|program_name|}}}
+|-
+! version:
+| {{{field|version|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Demultiplexing softwares'''
+This category uses the form [[Has default form::Demultiplexing software]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Run id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Lane number'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Accepted'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping type'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Lane'''
+<noinclude>
+This is the 'Lane' template.
+It should be called in the following format:
+<pre>
+{{Lane
+|id=
+|run_id=
+|lane_number=
+|accepted=
+|mapping_type=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! run_id
+| [[Run id::{{{run_id|}}}]]
+|-
+! lane_number
+| [[Lane number::{{{lane_number|}}}]]
+|-
+! accepted
+| [[Accepted::{{{accepted|}}}]]
+|-
+! mapping_type
+| [[Mapping type::{{{mapping_type|}}}]]
+|-
+|}
+[[Category:Lanes]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Lane'''
+<noinclude>
+This is the 'Lane' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Lane|New Lane||}}
+
+</noinclude><includeonly>
+{{{info|page name=Lanes/<unique_number;start=1>}}}
+{{{for template|Lane}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! run_id:
+| {{{field|run_id|}}}
+|-
+! lane_number:
+| {{{field|lane_number|}}}
+|-
+! accepted:
+| {{{field|accepted|}}}
+|-
+! mapping_type:
+| {{{field|mapping_type|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Lanes'''
+This category uses the form [[Has default form::Lane]].
+{{-stop-}}
+{{-start-}}
+'''Property:Lane id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Lane contents'''
+<noinclude>
+This is the 'Lane contents' template.
+It should be called in the following format:
+<pre>
+{{Lane contents
+|lane_id=
+|library_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! lane_id
+| [[Lane id::{{{lane_id|}}}]]
+|-
+! library_id
+| [[Library id::{{{library_id|}}}]]
+|-
+|}
+[[Category:Lane contents]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Lane contents'''
+<noinclude>
+This is the 'Lane contents' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Lane contents|New Lane contents||}}
+
+</noinclude><includeonly>
+{{{info|page name=Lane contents/<unique_number;start=1>}}}
+{{{for template|Lane contents}}}
+{| class="formtable"
+! lane_id:
+| {{{field|lane_id|}}}
+|-
+! library_id:
+| {{{field|library_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Lane contents'''
+This category uses the form [[Has default form::Lane contents]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library name'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Project phase id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Library'''
+<noinclude>
+This is the 'Library' template.
+It should be called in the following format:
+<pre>
+{{Library
+|id=
+|library_name=
+|project_phase_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! library_name
+| [[Library name::{{{library_name|}}}]]
+|-
+! project_phase_id
+| [[Project phase id::{{{project_phase_id|}}}]]
+|-
+|}
+[[Category:Libraries]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Library'''
+<noinclude>
+This is the 'Library' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Library|New Library||}}
+
+</noinclude><includeonly>
+{{{info|page name=Libraries/<unique_number;start=1>}}}
+{{{for template|Library}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! library_name:
+| {{{field|library_name|}}}
+|-
+! project_phase_id:
+| {{{field|project_phase_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Libraries'''
+This category uses the form [[Has default form::Library]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sample id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid1 id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid2 id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Library sample mid'''
+<noinclude>
+This is the 'Library sample mid' template.
+It should be called in the following format:
+<pre>
+{{Library sample mid
+|library_id=
+|sample_id=
+|mid1_id=
+|mid2_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! library_id
+| [[Library id::{{{library_id|}}}]]
+|-
+! sample_id
+| [[Sample id::{{{sample_id|}}}]]
+|-
+! mid1_id
+| [[Mid1 id::{{{mid1_id|}}}]]
+|-
+! mid2_id
+| [[Mid2 id::{{{mid2_id|}}}]]
+|-
+|}
+[[Category:Library sample mids]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Library sample mid'''
+<noinclude>
+This is the 'Library sample mid' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Library sample mid|New Library sample mid||}}
+
+</noinclude><includeonly>
+{{{info|page name=Library sample mids/<unique_number;start=1>}}}
+{{{for template|Library sample mid}}}
+{| class="formtable"
+! library_id:
+| {{{field|library_id|}}}
+|-
+! sample_id:
+| {{{field|sample_id|}}}
+|-
+! mid1_id:
+| {{{field|mid1_id|}}}
+|-
+! mid2_id:
+| {{{field|mid2_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Library sample mids'''
+This category uses the form [[Has default form::Library sample mid]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Project phase id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping lane id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Read id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping target id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Target match score'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Read match coverage'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Off target match'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Off target match score'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Orientation'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Passes qc'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mapped read'''
+<noinclude>
+This is the 'Mapped read' template.
+It should be called in the following format:
+<pre>
+{{Mapped read
+|id=
+|project_phase_id=
+|mapping_lane_id=
+|read_id=
+|mapping_target_id=
+|target_match_score=
+|read_match_coverage=
+|off_target_match=
+|off_target_match_score=
+|orientation=
+|passes_qc=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! project_phase_id
+| [[Project phase id::{{{project_phase_id|}}}]]
+|-
+! mapping_lane_id
+| [[Mapping lane id::{{{mapping_lane_id|}}}]]
+|-
+! read_id
+| [[Read id::{{{read_id|}}}]]
+|-
+! mapping_target_id
+| [[Mapping target id::{{{mapping_target_id|}}}]]
+|-
+! target_match_score
+| [[Target match score::{{{target_match_score|}}}]]
+|-
+! read_match_coverage
+| [[Read match coverage::{{{read_match_coverage|}}}]]
+|-
+! off_target_match
+| [[Off target match::{{{off_target_match|}}}]]
+|-
+! off_target_match_score
+| [[Off target match score::{{{off_target_match_score|}}}]]
+|-
+! orientation
+| [[Orientation::{{{orientation|}}}]]
+|-
+! passes_qc
+| [[Passes qc::{{{passes_qc|}}}]]
+|-
+|}
+[[Category:Mapped reads]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mapped read'''
+<noinclude>
+This is the 'Mapped read' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mapped read|New Mapped read||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mapped reads/<unique_number;start=1>}}}
+{{{for template|Mapped read}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! project_phase_id:
+| {{{field|project_phase_id|}}}
+|-
+! mapping_lane_id:
+| {{{field|mapping_lane_id|}}}
+|-
+! read_id:
+| {{{field|read_id|}}}
+|-
+! mapping_target_id:
+| {{{field|mapping_target_id|}}}
+|-
+! target_match_score:
+| {{{field|target_match_score|}}}
+|-
+! read_match_coverage:
+| {{{field|read_match_coverage|}}}
+|-
+! off_target_match:
+| {{{field|off_target_match|}}}
+|-
+! off_target_match_score:
+| {{{field|off_target_match_score|}}}
+|-
+! orientation:
+| {{{field|orientation|}}}
+|-
+! passes_qc:
+| {{{field|passes_qc|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mapped reads'''
+This category uses the form [[Has default form::Mapped read]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping run id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sig proc lane id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping target set id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mapping lane'''
+<noinclude>
+This is the 'Mapping lane' template.
+It should be called in the following format:
+<pre>
+{{Mapping lane
+|id=
+|mapping_run_id=
+|sig_proc_lane_id=
+|mapping_target_set_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! mapping_run_id
+| [[Mapping run id::{{{mapping_run_id|}}}]]
+|-
+! sig_proc_lane_id
+| [[Sig proc lane id::{{{sig_proc_lane_id|}}}]]
+|-
+! mapping_target_set_id
+| [[Mapping target set id::{{{mapping_target_set_id|}}}]]
+|-
+|}
+[[Category:Mapping lanes]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mapping lane'''
+<noinclude>
+This is the 'Mapping lane' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mapping lane|New Mapping lane||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mapping lanes/<unique_number;start=1>}}}
+{{{for template|Mapping lane}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! mapping_run_id:
+| {{{field|mapping_run_id|}}}
+|-
+! sig_proc_lane_id:
+| {{{field|sig_proc_lane_id|}}}
+|-
+! mapping_target_set_id:
+| {{{field|mapping_target_set_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mapping lanes'''
+This category uses the form [[Has default form::Mapping lane]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping software id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping dt'''
+This is a property of type [[Has type::Date]].
+{{-stop-}}
+{{-start-}}
+'''Property:Directory'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mapping run'''
+<noinclude>
+This is the 'Mapping run' template.
+It should be called in the following format:
+<pre>
+{{Mapping run
+|id=
+|mapping_software_id=
+|mapping_dt=
+|directory=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! mapping_software_id
+| [[Mapping software id::{{{mapping_software_id|}}}]]
+|-
+! mapping_dt
+| [[Mapping dt::{{{mapping_dt|}}}]]
+|-
+! directory
+| [[Directory::{{{directory|}}}]]
+|-
+|}
+[[Category:Mapping runs]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mapping run'''
+<noinclude>
+This is the 'Mapping run' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mapping run|New Mapping run||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mapping runs/<unique_number;start=1>}}}
+{{{for template|Mapping run}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! mapping_software_id:
+| {{{field|mapping_software_id|}}}
+|-
+! mapping_dt:
+| {{{field|mapping_dt|}}}
+|-
+! directory:
+| {{{field|directory|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mapping runs'''
+This category uses the form [[Has default form::Mapping run]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Program name'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Version'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mapping software'''
+<noinclude>
+This is the 'Mapping software' template.
+It should be called in the following format:
+<pre>
+{{Mapping software
+|id=
+|program_name=
+|version=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! program_name
+| [[Program name::{{{program_name|}}}]]
+|-
+! version
+| [[Version::{{{version|}}}]]
+|-
+|}
+[[Category:Mapping softwares]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mapping software'''
+<noinclude>
+This is the 'Mapping software' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mapping software|New Mapping software||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mapping softwares/<unique_number;start=1>}}}
+{{{for template|Mapping software}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! program_name:
+| {{{field|program_name|}}}
+|-
+! version:
+| {{{field|version|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mapping softwares'''
+This category uses the form [[Has default form::Mapping software]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Header'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Nt sequence'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Chrom'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Chrom start'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Chrom end'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Nt reference genome'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mapping target'''
+<noinclude>
+This is the 'Mapping target' template.
+It should be called in the following format:
+<pre>
+{{Mapping target
+|id=
+|header=
+|nt_sequence=
+|chrom=
+|chrom_start=
+|chrom_end=
+|nt_reference_genome=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! header
+| [[Header::{{{header|}}}]]
+|-
+! nt_sequence
+| [[Nt sequence::{{{nt_sequence|}}}]]
+|-
+! chrom
+| [[Chrom::{{{chrom|}}}]]
+|-
+! chrom_start
+| [[Chrom start::{{{chrom_start|}}}]]
+|-
+! chrom_end
+| [[Chrom end::{{{chrom_end|}}}]]
+|-
+! nt_reference_genome
+| [[Nt reference genome::{{{nt_reference_genome|}}}]]
+|-
+|}
+[[Category:Mapping targets]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mapping target'''
+<noinclude>
+This is the 'Mapping target' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mapping target|New Mapping target||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mapping targets/<unique_number;start=1>}}}
+{{{for template|Mapping target}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! header:
+| {{{field|header|}}}
+|-
+! nt_sequence:
+| {{{field|nt_sequence|}}}
+|-
+! chrom:
+| {{{field|chrom|}}}
+|-
+! chrom_start:
+| {{{field|chrom_start|}}}
+|-
+! chrom_end:
+| {{{field|chrom_end|}}}
+|-
+! nt_reference_genome:
+| {{{field|nt_reference_genome|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mapping targets'''
+This category uses the form [[Has default form::Mapping target]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Name'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Filename'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mapping target set'''
+<noinclude>
+This is the 'Mapping target set' template.
+It should be called in the following format:
+<pre>
+{{Mapping target set
+|id=
+|name=
+|filename=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! name
+| [[Name::{{{name|}}}]]
+|-
+! filename
+| [[Filename::{{{filename|}}}]]
+|-
+|}
+[[Category:Mapping target sets]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mapping target set'''
+<noinclude>
+This is the 'Mapping target set' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mapping target set|New Mapping target set||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mapping target sets/<unique_number;start=1>}}}
+{{{for template|Mapping target set}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! name:
+| {{{field|name|}}}
+|-
+! filename:
+| {{{field|filename|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mapping target sets'''
+This category uses the form [[Has default form::Mapping target set]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping target set id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping target id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Order in set'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mapping target set member'''
+<noinclude>
+This is the 'Mapping target set member' template.
+It should be called in the following format:
+<pre>
+{{Mapping target set member
+|mapping_target_set_id=
+|mapping_target_id=
+|order_in_set=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! mapping_target_set_id
+| [[Mapping target set id::{{{mapping_target_set_id|}}}]]
+|-
+! mapping_target_id
+| [[Mapping target id::{{{mapping_target_id|}}}]]
+|-
+! order_in_set
+| [[Order in set::{{{order_in_set|}}}]]
+|-
+|}
+[[Category:Mapping target set members]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mapping target set member'''
+<noinclude>
+This is the 'Mapping target set member' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mapping target set member|New Mapping target set member||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mapping target set members/<unique_number;start=1>}}}
+{{{for template|Mapping target set member}}}
+{| class="formtable"
+! mapping_target_set_id:
+| {{{field|mapping_target_set_id|}}}
+|-
+! mapping_target_id:
+| {{{field|mapping_target_id|}}}
+|-
+! order_in_set:
+| {{{field|order_in_set|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mapping target set members'''
+This category uses the form [[Has default form::Mapping target set member]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Type'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Name'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sequence'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mid'''
+<noinclude>
+This is the 'Mid' template.
+It should be called in the following format:
+<pre>
+{{Mid
+|id=
+|type=
+|name=
+|sequence=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! type
+| [[Type::{{{type|}}}]]
+|-
+! name
+| [[Name::{{{name|}}}]]
+|-
+! sequence
+| [[Sequence::{{{sequence|}}}]]
+|-
+|}
+[[Category:Mids]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mid'''
+<noinclude>
+This is the 'Mid' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mid|New Mid||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mids/<unique_number;start=1>}}}
+{{{for template|Mid}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! type:
+| {{{field|type|}}}
+|-
+! name:
+| {{{field|name|}}}
+|-
+! sequence:
+| {{{field|sequence|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mids'''
+This category uses the form [[Has default form::Mid]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Name'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:File name'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mid set'''
+<noinclude>
+This is the 'Mid set' template.
+It should be called in the following format:
+<pre>
+{{Mid set
+|id=
+|name=
+|file_name=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! name
+| [[Name::{{{name|}}}]]
+|-
+! file_name
+| [[File name::{{{file_name|}}}]]
+|-
+|}
+[[Category:Mid sets]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mid set'''
+<noinclude>
+This is the 'Mid set' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mid set|New Mid set||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mid sets/<unique_number;start=1>}}}
+{{{for template|Mid set}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! name:
+| {{{field|name|}}}
+|-
+! file_name:
+| {{{field|file_name|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mid sets'''
+This category uses the form [[Has default form::Mid set]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid set id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Order in set'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Mid set member'''
+<noinclude>
+This is the 'Mid set member' template.
+It should be called in the following format:
+<pre>
+{{Mid set member
+|mid_set_id=
+|mid_id=
+|order_in_set=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! mid_set_id
+| [[Mid set id::{{{mid_set_id|}}}]]
+|-
+! mid_id
+| [[Mid id::{{{mid_id|}}}]]
+|-
+! order_in_set
+| [[Order in set::{{{order_in_set|}}}]]
+|-
+|}
+[[Category:Mid set members]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Mid set member'''
+<noinclude>
+This is the 'Mid set member' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Mid set member|New Mid set member||}}
+
+</noinclude><includeonly>
+{{{info|page name=Mid set members/<unique_number;start=1>}}}
+{{{for template|Mid set member}}}
+{| class="formtable"
+! mid_set_id:
+| {{{field|mid_set_id|}}}
+|-
+! mid_id:
+| {{{field|mid_id|}}}
+|-
+! order_in_set:
+| {{{field|order_in_set|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Mid set members'''
+This category uses the form [[Has default form::Mid set member]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Shortname'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Fullname'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Type'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Description'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Create dt'''
+This is a property of type [[Has type::Date]].
+{{-stop-}}
+{{-start-}}
+'''Property:Owner'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Email'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Project'''
+<noinclude>
+This is the 'Project' template.
+It should be called in the following format:
+<pre>
+{{Project
+|id=
+|shortname=
+|fullname=
+|type=
+|description=
+|create_dt=
+|owner=
+|email=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! shortname
+| [[Shortname::{{{shortname|}}}]]
+|-
+! fullname
+| [[Fullname::{{{fullname|}}}]]
+|-
+! type
+| [[Type::{{{type|}}}]]
+|-
+! description
+| [[Description::{{{description|}}}]]
+|-
+! create_dt
+| [[Create dt::{{{create_dt|}}}]]
+|-
+! owner
+| [[Owner::{{{owner|}}}]]
+|-
+! email
+| [[Email::{{{email|}}}]]
+|-
+|}
+[[Category:Projects]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Project'''
+<noinclude>
+This is the 'Project' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Project|New Project||}}
+
+</noinclude><includeonly>
+{{{info|page name=Projects/<unique_number;start=1>}}}
+{{{for template|Project}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! shortname:
+| {{{field|shortname|}}}
+|-
+! fullname:
+| {{{field|fullname|}}}
+|-
+! type:
+| {{{field|type|}}}
+|-
+! description:
+| {{{field|description|}}}
+|-
+! create_dt:
+| {{{field|create_dt|}}}
+|-
+! owner:
+| {{{field|owner|}}}
+|-
+! email:
+| {{{field|email|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Projects'''
+This category uses the form [[Has default form::Project]].
+{{-stop-}}
+{{-start-}}
+'''Property:Project id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Rtc project id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Project2rtcproject'''
+<noinclude>
+This is the 'Project2rtcproject' template.
+It should be called in the following format:
+<pre>
+{{Project2rtcproject
+|project_id=
+|rtc_project_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! project_id
+| [[Project id::{{{project_id|}}}]]
+|-
+! rtc_project_id
+| [[Rtc project id::{{{rtc_project_id|}}}]]
+|-
+|}
+[[Category:Project2rtcprojects]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Project2rtcproject'''
+<noinclude>
+This is the 'Project2rtcproject' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Project2rtcproject|New Project2rtcproject||}}
+
+</noinclude><includeonly>
+{{{info|page name=Project2rtcprojects/<unique_number;start=1>}}}
+{{{for template|Project2rtcproject}}}
+{| class="formtable"
+! project_id:
+| {{{field|project_id|}}}
+|-
+! rtc_project_id:
+| {{{field|rtc_project_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Project2rtcprojects'''
+This category uses the form [[Has default form::Project2rtcproject]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Project id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Shortname'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Fullname'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Type'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Description'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Create dt'''
+This is a property of type [[Has type::Date]].
+{{-stop-}}
+{{-start-}}
+'''Property:Owner'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Email'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Project phase'''
+<noinclude>
+This is the 'Project phase' template.
+It should be called in the following format:
+<pre>
+{{Project phase
+|id=
+|project_id=
+|shortname=
+|fullname=
+|type=
+|description=
+|create_dt=
+|owner=
+|email=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! project_id
+| [[Project id::{{{project_id|}}}]]
+|-
+! shortname
+| [[Shortname::{{{shortname|}}}]]
+|-
+! fullname
+| [[Fullname::{{{fullname|}}}]]
+|-
+! type
+| [[Type::{{{type|}}}]]
+|-
+! description
+| [[Description::{{{description|}}}]]
+|-
+! create_dt
+| [[Create dt::{{{create_dt|}}}]]
+|-
+! owner
+| [[Owner::{{{owner|}}}]]
+|-
+! email
+| [[Email::{{{email|}}}]]
+|-
+|}
+[[Category:Project phases]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Project phase'''
+<noinclude>
+This is the 'Project phase' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Project phase|New Project phase||}}
+
+</noinclude><includeonly>
+{{{info|page name=Project phases/<unique_number;start=1>}}}
+{{{for template|Project phase}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! project_id:
+| {{{field|project_id|}}}
+|-
+! shortname:
+| {{{field|shortname|}}}
+|-
+! fullname:
+| {{{field|fullname|}}}
+|-
+! type:
+| {{{field|type|}}}
+|-
+! description:
+| {{{field|description|}}}
+|-
+! create_dt:
+| {{{field|create_dt|}}}
+|-
+! owner:
+| {{{field|owner|}}}
+|-
+! email:
+| {{{field|email|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Project phases'''
+This category uses the form [[Has default form::Project phase]].
+{{-stop-}}
+{{-start-}}
+'''Property:Project phase id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mapping target set id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Mid set id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Project phase params'''
+<noinclude>
+This is the 'Project phase params' template.
+It should be called in the following format:
+<pre>
+{{Project phase params
+|project_phase_id=
+|mapping_target_set_id=
+|mid_set_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! project_phase_id
+| [[Project phase id::{{{project_phase_id|}}}]]
+|-
+! mapping_target_set_id
+| [[Mapping target set id::{{{mapping_target_set_id|}}}]]
+|-
+! mid_set_id
+| [[Mid set id::{{{mid_set_id|}}}]]
+|-
+|}
+[[Category:Project phase params]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Project phase params'''
+<noinclude>
+This is the 'Project phase params' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Project phase params|New Project phase params||}}
+
+</noinclude><includeonly>
+{{{info|page name=Project phase params/<unique_number;start=1>}}}
+{{{for template|Project phase params}}}
+{| class="formtable"
+! project_phase_id:
+| {{{field|project_phase_id|}}}
+|-
+! mapping_target_set_id:
+| {{{field|mapping_target_set_id|}}}
+|-
+! mid_set_id:
+| {{{field|mid_set_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Project phase params'''
+This category uses the form [[Has default form::Project phase params]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sig proc lane id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Accession'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Length'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Project phase id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Read'''
+<noinclude>
+This is the 'Read' template.
+It should be called in the following format:
+<pre>
+{{Read
+|id=
+|sig_proc_lane_id=
+|accession=
+|length=
+|project_phase_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! sig_proc_lane_id
+| [[Sig proc lane id::{{{sig_proc_lane_id|}}}]]
+|-
+! accession
+| [[Accession::{{{accession|}}}]]
+|-
+! length
+| [[Length::{{{length|}}}]]
+|-
+! project_phase_id
+| [[Project phase id::{{{project_phase_id|}}}]]
+|-
+|}
+[[Category:Reads]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Read'''
+<noinclude>
+This is the 'Read' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Read|New Read||}}
+
+</noinclude><includeonly>
+{{{info|page name=Reads/<unique_number;start=1>}}}
+{{{for template|Read}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! sig_proc_lane_id:
+| {{{field|sig_proc_lane_id|}}}
+|-
+! accession:
+| {{{field|accession|}}}
+|-
+! length:
+| {{{field|length|}}}
+|-
+! project_phase_id:
+| {{{field|project_phase_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Reads'''
+This category uses the form [[Has default form::Read]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Ptp id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Lanes'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Run dt'''
+This is a property of type [[Has type::Date]].
+{{-stop-}}
+{{-start-}}
+'''Property:Accepted'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Chemistry'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Software release'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Kit type'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Run script'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Instrument'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Operator'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Name'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Flx longname'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Run'''
+<noinclude>
+This is the 'Run' template.
+It should be called in the following format:
+<pre>
+{{Run
+|id=
+|ptp_id=
+|lanes=
+|run_dt=
+|accepted=
+|chemistry=
+|software_release=
+|kit_type=
+|run_script=
+|instrument=
+|operator=
+|name=
+|flx_longname=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! ptp_id
+| [[Ptp id::{{{ptp_id|}}}]]
+|-
+! lanes
+| [[Lanes::{{{lanes|}}}]]
+|-
+! run_dt
+| [[Run dt::{{{run_dt|}}}]]
+|-
+! accepted
+| [[Accepted::{{{accepted|}}}]]
+|-
+! chemistry
+| [[Chemistry::{{{chemistry|}}}]]
+|-
+! software_release
+| [[Software release::{{{software_release|}}}]]
+|-
+! kit_type
+| [[Kit type::{{{kit_type|}}}]]
+|-
+! run_script
+| [[Run script::{{{run_script|}}}]]
+|-
+! instrument
+| [[Instrument::{{{instrument|}}}]]
+|-
+! operator
+| [[Operator::{{{operator|}}}]]
+|-
+! name
+| [[Name::{{{name|}}}]]
+|-
+! flx_longname
+| [[Flx longname::{{{flx_longname|}}}]]
+|-
+|}
+[[Category:Runs]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Run'''
+<noinclude>
+This is the 'Run' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Run|New Run||}}
+
+</noinclude><includeonly>
+{{{info|page name=Runs/<unique_number;start=1>}}}
+{{{for template|Run}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! ptp_id:
+| {{{field|ptp_id|}}}
+|-
+! lanes:
+| {{{field|lanes|}}}
+|-
+! run_dt:
+| {{{field|run_dt|}}}
+|-
+! accepted:
+| {{{field|accepted|}}}
+|-
+! chemistry:
+| {{{field|chemistry|}}}
+|-
+! software_release:
+| {{{field|software_release|}}}
+|-
+! kit_type:
+| {{{field|kit_type|}}}
+|-
+! run_script:
+| {{{field|run_script|}}}
+|-
+! instrument:
+| {{{field|instrument|}}}
+|-
+! operator:
+| {{{field|operator|}}}
+|-
+! name:
+| {{{field|name|}}}
+|-
+! flx_longname:
+| {{{field|flx_longname|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Runs'''
+This category uses the form [[Has default form::Run]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sample shipment id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Accession'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Donor id'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Pfizer bc'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Well position'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Fullname'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Conc ng ul'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Quant method'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Volume ul'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Volume check'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Comments'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Phenotype'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Species'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Source'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Received dt'''
+This is a property of type [[Has type::Date]].
+{{-stop-}}
+{{-start-}}
+'''Property:Ethnicity'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Gender'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Extract method'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Container type'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Duplicate replacement id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Sample'''
+<noinclude>
+This is the 'Sample' template.
+It should be called in the following format:
+<pre>
+{{Sample
+|id=
+|sample_shipment_id=
+|accession=
+|donor_id=
+|pfizer_bc=
+|well_position=
+|fullname=
+|conc_ng_ul=
+|quant_method=
+|volume_ul=
+|volume_check=
+|comments=
+|phenotype=
+|species=
+|source=
+|received_dt=
+|ethnicity=
+|gender=
+|extract_method=
+|container_type=
+|duplicate_replacement_id=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! sample_shipment_id
+| [[Sample shipment id::{{{sample_shipment_id|}}}]]
+|-
+! accession
+| [[Accession::{{{accession|}}}]]
+|-
+! donor_id
+| [[Donor id::{{{donor_id|}}}]]
+|-
+! pfizer_bc
+| [[Pfizer bc::{{{pfizer_bc|}}}]]
+|-
+! well_position
+| [[Well position::{{{well_position|}}}]]
+|-
+! fullname
+| [[Fullname::{{{fullname|}}}]]
+|-
+! conc_ng_ul
+| [[Conc ng ul::{{{conc_ng_ul|}}}]]
+|-
+! quant_method
+| [[Quant method::{{{quant_method|}}}]]
+|-
+! volume_ul
+| [[Volume ul::{{{volume_ul|}}}]]
+|-
+! volume_check
+| [[Volume check::{{{volume_check|}}}]]
+|-
+! comments
+| [[Comments::{{{comments|}}}]]
+|-
+! phenotype
+| [[Phenotype::{{{phenotype|}}}]]
+|-
+! species
+| [[Species::{{{species|}}}]]
+|-
+! source
+| [[Source::{{{source|}}}]]
+|-
+! received_dt
+| [[Received dt::{{{received_dt|}}}]]
+|-
+! ethnicity
+| [[Ethnicity::{{{ethnicity|}}}]]
+|-
+! gender
+| [[Gender::{{{gender|}}}]]
+|-
+! extract_method
+| [[Extract method::{{{extract_method|}}}]]
+|-
+! container_type
+| [[Container type::{{{container_type|}}}]]
+|-
+! duplicate_replacement_id
+| [[Duplicate replacement id::{{{duplicate_replacement_id|}}}]]
+|-
+|}
+[[Category:Samples]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Sample'''
+<noinclude>
+This is the 'Sample' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Sample|New Sample||}}
+
+</noinclude><includeonly>
+{{{info|page name=Samples/<unique_number;start=1>}}}
+{{{for template|Sample}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! sample_shipment_id:
+| {{{field|sample_shipment_id|}}}
+|-
+! accession:
+| {{{field|accession|}}}
+|-
+! donor_id:
+| {{{field|donor_id|}}}
+|-
+! pfizer_bc:
+| {{{field|pfizer_bc|}}}
+|-
+! well_position:
+| {{{field|well_position|}}}
+|-
+! fullname:
+| {{{field|fullname|}}}
+|-
+! conc_ng_ul:
+| {{{field|conc_ng_ul|}}}
+|-
+! quant_method:
+| {{{field|quant_method|}}}
+|-
+! volume_ul:
+| {{{field|volume_ul|}}}
+|-
+! volume_check:
+| {{{field|volume_check|}}}
+|-
+! comments:
+| {{{field|comments|}}}
+|-
+! phenotype:
+| {{{field|phenotype|}}}
+|-
+! species:
+| {{{field|species|}}}
+|-
+! source:
+| {{{field|source|}}}
+|-
+! received_dt:
+| {{{field|received_dt|}}}
+|-
+! ethnicity:
+| {{{field|ethnicity|}}}
+|-
+! gender:
+| {{{field|gender|}}}
+|-
+! extract_method:
+| {{{field|extract_method|}}}
+|-
+! container_type:
+| {{{field|container_type|}}}
+|-
+! duplicate_replacement_id:
+| {{{field|duplicate_replacement_id|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Samples'''
+This category uses the form [[Has default form::Sample]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sample id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sp sample label'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Sample2bpsample'''
+<noinclude>
+This is the 'Sample2bpsample' template.
+It should be called in the following format:
+<pre>
+{{Sample2bpsample
+|sample_id=
+|sp_sample_label=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! sample_id
+| [[Sample id::{{{sample_id|}}}]]
+|-
+! sp_sample_label
+| [[Sp sample label::{{{sp_sample_label|}}}]]
+|-
+|}
+[[Category:Sample2bpsamples]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Sample2bpsample'''
+<noinclude>
+This is the 'Sample2bpsample' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Sample2bpsample|New Sample2bpsample||}}
+
+</noinclude><includeonly>
+{{{info|page name=Sample2bpsamples/<unique_number;start=1>}}}
+{{{for template|Sample2bpsample}}}
+{| class="formtable"
+! sample_id:
+| {{{field|sample_id|}}}
+|-
+! sp_sample_label:
+| {{{field|sp_sample_label|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Sample2bpsamples'''
+This category uses the form [[Has default form::Sample2bpsample]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Project phase id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Manifest dt'''
+This is a property of type [[Has type::Date]].
+{{-stop-}}
+{{-start-}}
+'''Property:Manifest'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Sample shipment'''
+<noinclude>
+This is the 'Sample shipment' template.
+It should be called in the following format:
+<pre>
+{{Sample shipment
+|id=
+|project_phase_id=
+|manifest_dt=
+|manifest=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! project_phase_id
+| [[Project phase id::{{{project_phase_id|}}}]]
+|-
+! manifest_dt
+| [[Manifest dt::{{{manifest_dt|}}}]]
+|-
+! manifest
+| [[Manifest::{{{manifest|}}}]]
+|-
+|}
+[[Category:Sample shipments]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Sample shipment'''
+<noinclude>
+This is the 'Sample shipment' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Sample shipment|New Sample shipment||}}
+
+</noinclude><includeonly>
+{{{info|page name=Sample shipments/<unique_number;start=1>}}}
+{{{for template|Sample shipment}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! project_phase_id:
+| {{{field|project_phase_id|}}}
+|-
+! manifest_dt:
+| {{{field|manifest_dt|}}}
+|-
+! manifest:
+| {{{field|manifest|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Sample shipments'''
+This category uses the form [[Has default form::Sample shipment]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sig proc run id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Lane id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Processing type'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Accepted'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Sig proc lane'''
+<noinclude>
+This is the 'Sig proc lane' template.
+It should be called in the following format:
+<pre>
+{{Sig proc lane
+|id=
+|sig_proc_run_id=
+|lane_id=
+|processing_type=
+|accepted=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! sig_proc_run_id
+| [[Sig proc run id::{{{sig_proc_run_id|}}}]]
+|-
+! lane_id
+| [[Lane id::{{{lane_id|}}}]]
+|-
+! processing_type
+| [[Processing type::{{{processing_type|}}}]]
+|-
+! accepted
+| [[Accepted::{{{accepted|}}}]]
+|-
+|}
+[[Category:Sig proc lanes]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Sig proc lane'''
+<noinclude>
+This is the 'Sig proc lane' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Sig proc lane|New Sig proc lane||}}
+
+</noinclude><includeonly>
+{{{info|page name=Sig proc lanes/<unique_number;start=1>}}}
+{{{for template|Sig proc lane}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! sig_proc_run_id:
+| {{{field|sig_proc_run_id|}}}
+|-
+! lane_id:
+| {{{field|lane_id|}}}
+|-
+! processing_type:
+| {{{field|processing_type|}}}
+|-
+! accepted:
+| {{{field|accepted|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Sig proc lanes'''
+This category uses the form [[Has default form::Sig proc lane]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sig proc lane id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Total raw wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Total keypass wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Ctrl keypass wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Ctrl pass filter wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Ctrl mixed wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Ctrl dot wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Ctrl 98 200 wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Ctrl total bases'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library keypass wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library pass filter wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library mixed wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library dot wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library shortp wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library shortq wells'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Library total bases'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Template:Sig proc lane stats'''
+<noinclude>
+This is the 'Sig proc lane stats' template.
+It should be called in the following format:
+<pre>
+{{Sig proc lane stats
+|id=
+|sig_proc_lane_id=
+|total_raw_wells=
+|total_keypass_wells=
+|ctrl_keypass_wells=
+|ctrl_pass_filter_wells=
+|ctrl_mixed_wells=
+|ctrl_dot_wells=
+|ctrl_98_200_wells=
+|ctrl_total_bases=
+|library_keypass_wells=
+|library_pass_filter_wells=
+|library_mixed_wells=
+|library_dot_wells=
+|library_shortp_wells=
+|library_shortq_wells=
+|library_total_bases=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! sig_proc_lane_id
+| [[Sig proc lane id::{{{sig_proc_lane_id|}}}]]
+|-
+! total_raw_wells
+| [[Total raw wells::{{{total_raw_wells|}}}]]
+|-
+! total_keypass_wells
+| [[Total keypass wells::{{{total_keypass_wells|}}}]]
+|-
+! ctrl_keypass_wells
+| [[Ctrl keypass wells::{{{ctrl_keypass_wells|}}}]]
+|-
+! ctrl_pass_filter_wells
+| [[Ctrl pass filter wells::{{{ctrl_pass_filter_wells|}}}]]
+|-
+! ctrl_mixed_wells
+| [[Ctrl mixed wells::{{{ctrl_mixed_wells|}}}]]
+|-
+! ctrl_dot_wells
+| [[Ctrl dot wells::{{{ctrl_dot_wells|}}}]]
+|-
+! ctrl_98_200_wells
+| [[Ctrl 98 200 wells::{{{ctrl_98_200_wells|}}}]]
+|-
+! ctrl_total_bases
+| [[Ctrl total bases::{{{ctrl_total_bases|}}}]]
+|-
+! library_keypass_wells
+| [[Library keypass wells::{{{library_keypass_wells|}}}]]
+|-
+! library_pass_filter_wells
+| [[Library pass filter wells::{{{library_pass_filter_wells|}}}]]
+|-
+! library_mixed_wells
+| [[Library mixed wells::{{{library_mixed_wells|}}}]]
+|-
+! library_dot_wells
+| [[Library dot wells::{{{library_dot_wells|}}}]]
+|-
+! library_shortp_wells
+| [[Library shortp wells::{{{library_shortp_wells|}}}]]
+|-
+! library_shortq_wells
+| [[Library shortq wells::{{{library_shortq_wells|}}}]]
+|-
+! library_total_bases
+| [[Library total bases::{{{library_total_bases|}}}]]
+|-
+|}
+[[Category:Sig proc lane stats]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Sig proc lane stats'''
+<noinclude>
+This is the 'Sig proc lane stats' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Sig proc lane stats|New Sig proc lane stats||}}
+
+</noinclude><includeonly>
+{{{info|page name=Sig proc lane stats/<unique_number;start=1>}}}
+{{{for template|Sig proc lane stats}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! sig_proc_lane_id:
+| {{{field|sig_proc_lane_id|}}}
+|-
+! total_raw_wells:
+| {{{field|total_raw_wells|}}}
+|-
+! total_keypass_wells:
+| {{{field|total_keypass_wells|}}}
+|-
+! ctrl_keypass_wells:
+| {{{field|ctrl_keypass_wells|}}}
+|-
+! ctrl_pass_filter_wells:
+| {{{field|ctrl_pass_filter_wells|}}}
+|-
+! ctrl_mixed_wells:
+| {{{field|ctrl_mixed_wells|}}}
+|-
+! ctrl_dot_wells:
+| {{{field|ctrl_dot_wells|}}}
+|-
+! ctrl_98_200_wells:
+| {{{field|ctrl_98_200_wells|}}}
+|-
+! ctrl_total_bases:
+| {{{field|ctrl_total_bases|}}}
+|-
+! library_keypass_wells:
+| {{{field|library_keypass_wells|}}}
+|-
+! library_pass_filter_wells:
+| {{{field|library_pass_filter_wells|}}}
+|-
+! library_mixed_wells:
+| {{{field|library_mixed_wells|}}}
+|-
+! library_dot_wells:
+| {{{field|library_dot_wells|}}}
+|-
+! library_shortp_wells:
+| {{{field|library_shortp_wells|}}}
+|-
+! library_shortq_wells:
+| {{{field|library_shortq_wells|}}}
+|-
+! library_total_bases:
+| {{{field|library_total_bases|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Sig proc lane stats'''
+This category uses the form [[Has default form::Sig proc lane stats]].
+{{-stop-}}
+{{-start-}}
+'''Property:Id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Run id'''
+This is a property of type [[Has type::Number]].
+{{-stop-}}
+{{-start-}}
+'''Property:Software release'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Property:Sig proc dt'''
+This is a property of type [[Has type::Date]].
+{{-stop-}}
+{{-start-}}
+'''Property:Directory'''
+This is a property of type [[Has type::String]].
+{{-stop-}}
+{{-start-}}
+'''Template:Sig proc run'''
+<noinclude>
+This is the 'Sig proc run' template.
+It should be called in the following format:
+<pre>
+{{Sig proc run
+|id=
+|run_id=
+|software_release=
+|sig_proc_dt=
+|directory=
+}}
+</pre>
+Edit the page to see the template text.
+</noinclude><includeonly>
+{|class="wikitable"
+! id
+| [[Id::{{{id|}}}]]
+|-
+! run_id
+| [[Run id::{{{run_id|}}}]]
+|-
+! software_release
+| [[Software release::{{{software_release|}}}]]
+|-
+! sig_proc_dt
+| [[Sig proc dt::{{{sig_proc_dt|}}}]]
+|-
+! directory
+| [[Directory::{{{directory|}}}]]
+|-
+|}
+[[Category:Sig proc runs]]
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Form:Sig proc run'''
+<noinclude>
+This is the 'Sig proc run' form.
+To add a page with this form, click the link below.
+
+{{#formlink:Sig proc run|New Sig proc run||}}
+
+</noinclude><includeonly>
+{{{info|page name=Sig proc runs/<unique_number;start=1>}}}
+{{{for template|Sig proc run}}}
+{| class="formtable"
+! id:
+| {{{field|id|}}}
+|-
+! run_id:
+| {{{field|run_id|}}}
+|-
+! software_release:
+| {{{field|software_release|}}}
+|-
+! sig_proc_dt:
+| {{{field|sig_proc_dt|}}}
+|-
+! directory:
+| {{{field|directory|}}}
+|-
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text}}}
+
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>
+{{-stop-}}
+{{-start-}}
+'''Category:Sig proc runs'''
+This category uses the form [[Has default form::Sig proc run]].
+{{-stop-}}

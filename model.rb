@@ -22,7 +22,8 @@ class Model
     create_category
   end
 
-  def property(name, type, field)
+  def property(name, type="String", field='')
+    field = name if field.empty?
     @properties << Property.new(name, type, field)
   end
   
